@@ -31,11 +31,9 @@ function currentLine(katzDeliLine){
         var linenow = [];
         linenow.push(`${i + 1}. ${katzDeliLine[i]}`);
     }
-    
+
   return `The line is currently: ${linenow}`;
-  
+
   } else {return "The line is currently empty.";
     }
 }
-
-
