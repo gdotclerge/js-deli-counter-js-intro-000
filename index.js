@@ -30,7 +30,7 @@ function currentLine(katzDeliLine){
 
       if (katzDeliLine[katzDeliLine.length - 1] === katzDeliLine[i]){
           linenow += `${i + 1}. ${katzDeliLine[i]}`;
-      } else { linenow += ` ${i + 1}. ${katzDeliLine[i]}, `;
+      } else { linenow += `${i + 1}. ${katzDeliLine[i]}, `;
         }
     }
 
