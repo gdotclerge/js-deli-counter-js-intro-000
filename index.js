@@ -27,16 +27,15 @@ function currentLine(katzDeliLine){
     var linenow = '';
 
     for (let i = 0; i < katzDeliLine.length; i++) {
-      
+
       if (katzDeliLine[katzDeliLine.length - 1] === katzDeliLine[i]){
           linenow += ` ${i + 1}. ${katzDeliLine[i]}`;
       } else { linenow += ` ${i + 1}. ${katzDeliLine[i]},`;
         }
     }
-    
+
     return `The line is currently: ${linenow}`;
-  
+
   } else {return "The line is currently empty.";
     }
 }
-
